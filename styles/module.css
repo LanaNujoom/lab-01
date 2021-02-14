@@ -1,0 +1,130 @@
+.a {
+    height: 9.7vh;
+    line-height: 9.7vh;
+    text-align: center;
+}
+
+.b {
+    height: 19.5vh;
+    line-height: 19.5vh;
+    text-align: center;
+}
+
+.c {
+    height: 16.3vh;
+    line-height: 16.3vh;
+    text-align: center;
+}
+
+.d {
+    height: 16.3vh;
+    line-height: 16.3vh;
+    text-align: center;
+}
+
+.i {
+    height: 10.4vh;
+    line-height: 10.4vh;
+}
+
+.firstquarters,
+.secondquarters {
+    height: 32.5vh;
+    line-height: 32.5vh;
+    width: 100%;
+}
+
+.firstquarters .e {
+    line-height: 32.5%;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.f {
+    text-align: center;
+}
+
+.secondquarters .g {
+    line-height: 32.5%;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.h {
+    text-align: center;
+}
+
+.g,
+.e {
+    text-align: center;
+}
+
+.i {
+    text-align: center;
+}
+
+div,
+nav {
+    border: 1px solid black;
+}
+
+@media(min-width: 768px) {
+    .a {
+        /* background-color: blue; */
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+    }
+    .b {
+        height: 600px;
+        line-height: 600px;
+        /* background-color: lightblue; */
+        text-align: center;
+        width: 20.8%;
+        float: left;
+    }
+    /* .c {
+        float: left;
+    }
+    .d {
+        float: right;
+    } */
+    .c,
+    .d {
+        height: 200px;
+        /* line-height: 200px; */
+        /* background-color: lightgray; */
+        /* text-align: center; */
+        width: 39.25%;
+        /* display: inline-block; */
+        float: left;
+    }
+    .firstquarters,
+    .secondquarters {
+        width: 39%;
+        height: 250px;
+        display: inline-block;
+    }
+    .f,
+    .h {
+        width: 49%;
+        height: 250px;
+        display: inline-block;
+    }
+    .firstquarters .e {
+        width: 49%;
+        height: 250px;
+        display: inline-block;
+    }
+    .secondquarters .g {
+        width: 49%;
+        height: 250px;
+        display: inline-block;
+    }
+    .i {
+        height: 150px;
+        width: 79.1;
+    }
+}
